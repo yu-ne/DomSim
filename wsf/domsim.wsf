@@ -1,0 +1,26 @@
+<job>
+  <script language="JavaScript" src="..\lib\util\array_ex.js"></script>
+  <script language="JavaScript" src="..\lib\util\logger.js"></script>
+  <script language="JavaScript" src="..\lib\card\cards.js"></script>
+  <script language="JavaScript" src="..\lib\card\card.js"></script>
+  <script language="JavaScript" src="..\lib\player\deck.js"></script>
+  <script language="JavaScript" src="..\lib\player\play_area.js"></script>
+  <script language="JavaScript" src="..\lib\player\hand.js"></script>
+  <script language="JavaScript" src="..\lib\player\discard_pile.js"></script>
+  <script language="JavaScript" src="..\lib\player\task_controlar.js"></script>
+  <script language="JavaScript" src="..\lib\player\play_logger.js"></script>
+  <script language="JavaScript" src="..\lib\player\player.js"></script>
+  <script language="JavaScript" src="..\lib\board\supply_pile.js"></script>
+  <script language="JavaScript" src="..\lib\board\supply_pile_factory.js"></script>
+  <script language="JavaScript" src="..\lib\board\supply.js"></script>
+  <script language="JavaScript" src="..\lib\board\board.js"></script>
+  <script language="JavaScript" src="..\lib\db\card_db.js"></script>
+  <script language="JavaScript" src="..\lib\sim\simulation_result.js"></script>
+  <script language="JavaScript" src="..\lib\sim\simulator.js"></script>
+  <script language="JavaScript" src="..\setting.js"></script>
+
+  <script language="JavaScript">
+    var simulator = new Simulator();
+    simulator.main();
+  </script>
+</job>
