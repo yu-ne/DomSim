@@ -184,7 +184,7 @@ Setting.LOG_LEVEL = 1;
 Setting.isGameEnd = function() {
 
   // プレイヤー1のデッキ内の属州枚数が4枚になったらゲーム終了
-  if(board.players[0].countByCardNameInDeck(Card.NAME.PROVINCE) > 3) {
+  if(board.players[0].countByCardNameInDeck(Card.NAME.PROVINCE) >= 4) {
     return true;
   }
 
